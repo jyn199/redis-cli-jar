@@ -29,6 +29,14 @@ public class RedisCore {
 		redisHelper.get(args);
 	}
 	
+	public void setnx(String[] args){
+		redisHelper.setnx(args);
+	}
+	
+	public void set(String[] args){
+		redisHelper.set(args);
+	}
+	
 	public void getSet(String[] args){
 		redisHelper.getSet(args);
 	}
@@ -39,6 +47,10 @@ public class RedisCore {
 	
 	public void del(String[] args){
 		redisHelper.del(args);
+	}
+	
+	public void dels(String[] args){
+		redisHelper.dels(args);
 	}
 	
 }
